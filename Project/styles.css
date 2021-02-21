@@ -4,6 +4,16 @@
   border: 0;
 }
 
+@font-face {
+  font-family: Raleway;
+  src: url(Raleway/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: Post No Bills Jaffna SemiBold;
+  src: url(PostNoBills/PostNoBillsJaffna-SemiBold.ttf);
+}
+
 body{
   background-color: #242B33;
 }
@@ -16,10 +26,48 @@ body{
 }
 
 .header-menu{
-  display: flex;
-  justify-content: space-between;
-  text-decoration: none;
+  position: relative;
+  left: 50%;
+  top: 25px;
   list-style: none;
+  display: flex;
+
+  font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+
+}
+
+.header-logo{
+  position: relative;
+  left: 0%;
+}
+
+.header-logo-uppertext{
+  font-family: Post No Bills Jaffna SemiBold;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+
+color: #FFFFFF;
+}
+
+.header-logo-undertext{
+  font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+letter-spacing: 0.12em;
+color: #FFFFFF;
 }
 
 li{
@@ -42,12 +90,14 @@ li{
 }
 
 .hero-content{
-  display: flex;
+  display: grid;
   justify-content: center;
+  position: relative;
+  top: 250px;
 }
 
 .hero-content-content{
-  width: 554px;
+  width: 556px;
   font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
@@ -60,10 +110,39 @@ li{
 
 .hero-phone{
   position: relative;
-  top: 500px;
+  top: 300px;
+  left: -10%;
+
+  font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
 }
 
 .hero-place{
   position: relative;
-  top: 500px;
+  top: 280px;
+  left: 90%;
+
+  font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+.place{
+  position: relative;
+  top: 260px;
+  left: 85%;
+}
+
+.Phone{
+  position: relative;
+  top: 240px;
+  left: -15%;
 }
