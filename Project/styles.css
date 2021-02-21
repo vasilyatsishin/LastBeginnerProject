@@ -37,13 +37,22 @@ li{
 
 .container{
   display: flex;
-  justify-content: space-between;
-  
+  justify-content: space-around;
+
 }
 
-.hero-content{
-  display: flex;
+
+.hero-content-content{
   position: relative;
-  align-items: center;
-  top: 0;
+  width: 556px;
+  left: 35%;
+  top: 300px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+
+  color: #D4C17F;
 }
