@@ -41,12 +41,13 @@ li{
 
 }
 
+.hero-content{
+  display: flex;
+  justify-content: center;
+}
 
 .hero-content-content{
-  position: relative;
-  width: 556px;
-  left: 35%;
-  top: 300px;
+  width: 554px;
   font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
@@ -55,4 +56,14 @@ li{
   text-align: center;
 
   color: #D4C17F;
+}
+
+.hero-phone{
+  position: relative;
+  top: 500px;
+}
+
+.hero-place{
+  position: relative;
+  top: 500px;
 }
