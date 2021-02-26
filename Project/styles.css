@@ -75,13 +75,13 @@ li{
 }
 
 #header{
+  position: relative;
   background-image: url(Rectangle.png);
-  height: 100vh;
+  height: 95vh;
 }
 
-#hero{
-  top: 100px;
-}
+
+
 
 .container{
   display: flex;
@@ -106,6 +106,11 @@ li{
   text-align: center;
 
   color: #D4C17F;
+}
+
+.mouse{
+  position: relative;
+  left: 50%;
 }
 
 .hero-phone{
@@ -145,4 +150,101 @@ color: #FFFFFF;
   position: relative;
   top: 240px;
   left: -15%;
+}
+
+#testimonials{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 48px;
+}
+
+.testimonials{
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+}
+
+.benchtxt{
+position: relative;
+width: 193px;
+height: 47px;
+  top: 5px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.buildingtxt{
+  position: relative;
+  width: 133px;
+  height: 47px;
+    top: 5px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.fountaintxt{
+  position: relative;
+  width: 134px;
+  height: 47px;
+    top: 5px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.bicycletxt{
+  position: relative;
+  width: 124px;
+  height: 47px;
+  top: 5px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.benchimg{
+  position: relative;
+  left: 30%;
+}
+
+.buildingimg{
+  position: relative;
+  left: 22%;
+}
+
+.fountainimg{
+  position: relative;
+  left: 20%;
+}
+
+.bicycleimg{
+  position: relative;
+  left: 18%;
 }
