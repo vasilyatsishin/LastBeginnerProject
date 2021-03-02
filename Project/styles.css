@@ -36,9 +36,14 @@ line-height: 16px;
 letter-spacing: 0.05em;
 
 color: #FFFFFF;
-
 }
 
+.header-menu1{
+  display: flex;
+  padding-left: 7px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
 
 .header-logo-uppertext{
   font-family: PostNoBillsJaffna;
@@ -155,4 +160,45 @@ font-size: 17px;
 text-align: center;
 color: #FFFFFF;
 max-width: 159px;
+}
+
+#apartments{
+   display: flex;
+   justify-content: center;
+   margin-top: 5%;
+}
+
+.loftimg{
+  max-width: 500px;
+  padding: 10px;
+  background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%);
+}
+
+.apartments-name{
+  padding-bottom: 3%;
+  font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+color: #D4C17F;
+}
+
+#cta{
+  background-image: url(rec.png);
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+}
+
+.cta{
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
 }
