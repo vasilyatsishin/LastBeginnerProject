@@ -194,6 +194,7 @@ color: #D4C17F;
 .cta{
   display: flex;
   align-items: center;
+  justify-content: space-around;
   max-width: 500px;
   font-family: Raleway;
 font-style: normal;
@@ -202,3 +203,78 @@ font-size: 16px;
 line-height: 24px;
 color: #FFFFFF;
 }
+
+.cta-buttons{
+  display: flex;
+  flex-direction: column;
+}
+
+.cta-buttons-up{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cta-buttons-down{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cta-buttons-n{
+  display: flex;
+  height: 50px;
+width: 255px;
+border-radius: 0px;
+background: #FFFFFF;
+opacity: 0.2;
+color: black;
+text-align: center;
+align-items: center;
+justify-content: center;
+margin-right: 30px;
+}
+
+.cta-buttons-p{
+  display: flex;
+  height: 50px;
+  width: 255px;
+  border-radius: 0px;
+  background: #FFFFFF;
+  opacity: 0.2;
+  color: black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .cta-buttons-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 50px;
+    width: 255px;
+    border-radius: 0px;
+    background: #D4C17F;
+  }
+
+  .cta-buttons-text{
+    display: flex;
+    align-items: center;
+    width: 255px;
+    height: 50px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #E7E7E7;
+    padding-top: 30px;
+  }
+
+  .cta-content{
+    display: flex;
+    justify-content: space-between;
+  }
