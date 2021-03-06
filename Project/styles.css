@@ -185,7 +185,7 @@ color: #D4C17F;
 }
 
 #cta{
-  background-image: url(rec.png);
+  background: linear-gradient(180deg, rgba(45, 49, 53, 0) 10%, #242B33 100%),  url(rec.png);
   height: 50vh;
   display: flex;
   justify-content: center;
@@ -277,4 +277,142 @@ margin-right: 30px;
   .cta-content{
     display: flex;
     justify-content: space-between;
+    flex-direction: column; 
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #FFFFFF
   }
+
+  .cta-nc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 30px;
+    width: 40%;
+  }
+
+  .cta-name{
+    display: flex;
+    padding-bottom: 40px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+
+#video{
+  display: flex;
+  justify-content: center;
+}
+
+.video{
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.videoimg{
+  position: relative;
+  width: 75%;
+  height: 100%;
+}
+
+.pbutton{
+  position: absolute;
+  top: 50%;
+}
+
+#cta-form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.cta-form{
+  display: flex;
+  flex-direction: row;
+}
+
+.cta1-name{
+  font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+
+color: #D4C17F
+}
+
+.cta1-text{
+  display: flex;
+  width: 255px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+}
+
+.cta1-buttons-n{
+  display: flex;
+  height: 50px;
+  width: 255px;
+  background: #FFFFFF;
+  opacity: 0.2;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.cta1-buttons-p{
+  display: flex;
+  height: 50px;
+  width: 255px;
+  background: #FFFFFF;
+  opacity: 0.2;
+  font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 27px;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-right: 20px;
+}
+
+.cta1-buttons-button{
+  display: flex;
+  height: 50px;
+  width: 255px;
+  background: #D4C17F;
+
+  font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+align-items: center;
+justify-content: center;
+}
