@@ -10,8 +10,8 @@
 }
 
 @font-face {
-  font-family: 'Post No Bills Jaffna SemiBold';
-  src: url(Post No Bills Jaffna SemiBold\PostNoBillsJaffna-Regular.ttf);
+  font-family: 'PostNoBillsJaffna';
+  src: url(PostNoBillsJaffna-SemiBold.ttf);
 }
 
 body{
@@ -185,7 +185,7 @@ color: #D4C17F;
 }
 
 #cta{
-  background: linear-gradient(180deg, rgba(45, 49, 53, 0) 10%, #242B33 100%),  url(rec.png);
+  background: linear-gradient(180deg, rgba(45, 49, 53, 0) 1%, #242B33 100%),  url(rec.png);
   height: 50vh;
   display: flex;
   justify-content: center;
@@ -257,6 +257,9 @@ margin-right: 30px;
     width: 255px;
     border-radius: 0px;
     background: #D4C17F;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
   }
 
   .cta-buttons-text{
@@ -277,15 +280,12 @@ margin-right: 30px;
   .cta-content{
     display: flex;
     justify-content: space-between;
-    flex-direction: column; 
+    flex-direction: column;
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    /* or 150% */
-    
-    
     color: #FFFFFF
   }
 
@@ -335,6 +335,7 @@ margin-right: 30px;
   align-items: center;
   flex-direction: column;
   margin-top: 50px;
+  margin-bottom: 150px;
 }
 
 .cta-form{
@@ -407,12 +408,51 @@ margin-right: 20px;
   background: #D4C17F;
 
   font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 27px;
-text-align: center;
-color: #FFFFFF;
-align-items: center;
-justify-content: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer{
+  background: #2D343C;
+  height: 257px;
+}
+
+.footer-column1{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.footer-column2{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.footer-menu1{
+  display: flex;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
