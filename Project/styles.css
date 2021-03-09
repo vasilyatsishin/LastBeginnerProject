@@ -425,6 +425,7 @@ margin-right: 20px;
 }
 
 .footer-column1{
+  padding-top: 50px;
   font-family: Raleway;
   font-style: normal;
   font-weight: normal;
@@ -435,6 +436,18 @@ margin-right: 20px;
 }
 
 .footer-column2{
+  padding-top: 50px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.footer-column3{
+  padding-top: 50px;
   font-family: Raleway;
   font-style: normal;
   font-weight: normal;
@@ -447,12 +460,26 @@ margin-right: 20px;
 .footer-menu1{
   display: flex;
   text-decoration: none;
+  padding-bottom: 10px;
   color: #FFFFFF;
+}
+
+.footer-column3-text1{
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.socialicons{
+  padding-right: 15px;
+}
+
+.e-mail-intext{
+  color: #D4C17F;
+  font-weight: bold;
 }
 
 .footer{
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
