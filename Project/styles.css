@@ -186,7 +186,7 @@ color: #D4C17F;
 
 #cta{
   background: linear-gradient(180deg, rgba(45, 49, 53, 0) 1%, #242B33 100%),  url(rec.png);
-  height: 100vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
 }
