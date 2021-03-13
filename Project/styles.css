@@ -236,6 +236,7 @@ li {
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin-right: 15px;
 }
 
 .cta-buttons-p {
@@ -646,6 +647,10 @@ li {
 }
 
 @media (min-width: 450px) {
+
+}
+
+@media (max-width: 700px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -679,15 +684,13 @@ li {
     display: flex;
     flex-direction: column-reverse;
   }
-}
 
-@media (max-width: 700px) {
   .video {
     padding-top: 125px;
   }
 
   .cta-buttons-n {
-    margin-right: 15px;
+    margin-bottom: 15px;
   }
 
   .cta-content {
@@ -698,4 +701,6 @@ li {
   .cta-name {
     text-align: center;
   }
+
+
 }
