@@ -700,44 +700,10 @@ li {
   }
 }
 
-@media (max-height: 568px) {
-  #testimonials{
-    margin-top: 250px;
-  }
-}
-
-@media (max-height: 1366px){
-  #header{
-    height: 50vh;
-  }
-
-  .cta-content{
-    text-align: center;
-  }
-
-  .cta-name{
-    display: flex;
-    justify-content: center;
-  }
-}
-
-@media (max-height: 720px) {
-  .testimonials{
-    margin-top: 65px;
-  }
-
-  #cta{
-    margin-top: 222px;
-  }
-
-  #video{
-    margin-top: 111px;
-  }
-}
 
 @media (max-width: 320px) {
   #testimonials{
-    margin-top: 111px;
+    margin-top: 200px;
   }
 }
 
@@ -747,10 +713,17 @@ li {
   }
 
   #cta{
-    margin-top: 200px;
+    margin-top: 400px;
   }
 
   #video{
-    margin-top: 50px;
+    margin-top: 300px;
+  }
+
+}
+
+@media (width: 1024px) {
+  #header{
+    height: 50vh;
   }
 }
