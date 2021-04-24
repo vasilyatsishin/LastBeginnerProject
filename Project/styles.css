@@ -727,3 +727,10 @@ li {
     height: 50vh;
   }
 }
+
+.header-menu1:hover{
+}
+
+html {
+  scroll-behavior: smooth;
+}
